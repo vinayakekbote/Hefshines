@@ -1,4 +1,4 @@
-package com.string;
+package com.string.practice;
 //wap to reverse string
 
 public class ReverseString {

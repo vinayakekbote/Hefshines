@@ -1,4 +1,4 @@
-package com.string;
+package com.string.practice;
 
 public class RemoveChar {
     public static void main(String[] args) {
