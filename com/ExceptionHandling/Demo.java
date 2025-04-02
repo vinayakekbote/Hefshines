@@ -9,8 +9,10 @@ public class Demo {
         try {
             c = a / b;
             System.out.println(c);
+            System.out.println("Hello");
         } catch (Exception e) {
             System.out.println(e);
+
         }
     }
 }
