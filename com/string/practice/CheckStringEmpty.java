@@ -5,5 +5,6 @@ public class CheckStringEmpty {
         String a = "a";
 
         System.out.println(a.length() == 0);
+
     }
 }
