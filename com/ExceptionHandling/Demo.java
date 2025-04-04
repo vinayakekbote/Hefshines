@@ -9,10 +9,13 @@ public class Demo {
         try {
             c = a / b;
             System.out.println(c);
-            System.out.println("Hello");
+
+        } catch (ArithmeticException e) {
+            System.out.println("do not enter zero divisor");
         } catch (Exception e) {
             System.out.println(e);
-
+        } finally {//finally block is always executed
+            System.out.println("Hello");
         }
     }
 }
